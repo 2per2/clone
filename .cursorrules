@@ -1,0 +1,41 @@
+# **Commit Message Rules**
+
+When generating git commit messages:
+
+- **ALWAYS write in Korean.**
+- **ALWAYS follow the Conventional Commits types:**
+  `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `build`, `ci`, `chore`, `revert`.
+- **The commit message should begin with `<type>: <한국어 제목>`.**
+- **Title must be short, imperative, and Korean only.**
+- **Add an optional Korean body.**
+
+---
+
+## **Examples**
+
+### **feat: 새로운 로그인 페이지 추가**
+
+```
+feat: 새로운 로그인 페이지 추가
+
+새로운 사용자 로그인 페이지 UI를 구현하고 스타일을 적용했습니다.
+소셜 로그인 버튼과 기본 로그인 폼을 포함하며 반응형 레이아웃도 구성했습니다.
+```
+
+### **fix: OAuth2 리다이렉트 오류 수정**
+
+```
+fix: OAuth2 리다이렉트 오류 수정
+
+Google OAuth2 로그인 과정에서 잘못된 redirect_uri로 이동하던 문제를 수정했습니다.
+환경 변수 설정이 잘못되어 있던 부분을 바로잡고 OAuth 클라이언트 설정 값도 업데이트했습니다.
+```
+
+### **chore: 패키지 버전 업데이트**
+
+```
+chore: 패키지 버전 업데이트
+
+의존성 패키지들의 minor 버전을 최신으로 업데이트했습니다.
+보안 취약성 경고가 발생하던 패키지를 포함하여 전체적으로 안정성이 향상되었습니다.
+```
